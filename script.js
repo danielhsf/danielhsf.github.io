@@ -189,17 +189,16 @@ if (downloadBtn && downloadBtn.textContent.includes('Download CV')) {
     });
 }
 
-// Social media links (update with your actual profiles)
 document.addEventListener('DOMContentLoaded', () => {
     const linkedinLink = document.querySelector('.hero-social a[href="#"]:nth-child(2)');
     const githubLink = document.querySelector('.hero-social a[href="#"]:nth-child(3)');
     
     if (linkedinLink) {
-        linkedinLink.href = 'https://linkedin.com/in/your-profile'; // Update with your LinkedIn
+        linkedinLink.href = 'https://www.linkedin.com/in/daniel-henrique-fernandes-8020274a/';
     }
     
     if (githubLink) {
-        githubLink.href = 'https://github.com/your-username'; // Update with your GitHub
+        githubLink.href = 'https://github.com/danielhsf'; 
     }
 });
 
